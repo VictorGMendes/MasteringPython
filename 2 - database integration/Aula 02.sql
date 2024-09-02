@@ -68,6 +68,27 @@ insert into livros (titulo, ano, paginas, preco)
          ('titulo4', 2021, 242, 300),
          ('titulo5', 2019, 142, 200);
 
+insert into autores (nome, email, telefone)
+  values ('AAAAAA', 'A@', '204440'),
+         ('BBBBBBBB', 'b@', '422212'),
+         ('CCCCCC', 'c@', '423330'),
+         ('DDDDDD', 'd@', '22242'),
+         ('EEEEEEE', 'e@', '144442');
+
+insert into editoras (nome, endereco)
+  values ('editora1','rua A'),
+         ('editora2', 'rua B'),
+         ('editora3', 'rua c'),
+         ('editora4', 'rua D'),
+         ('editora5', 'rua e');
+
+insert into categorias (nome)
+  values ('nome1'),
+         ('nome2'),
+         ('nome3'),
+         ('nome4'),
+         ('nome5');
+
 
 delete from autores where id <=2;
 -- returning *;
